@@ -1,0 +1,17 @@
+https://help.github.com/en/github/using-git/setting-your-username-in-git#setting-your-git-username-for-every-repository-on-your-computer
+
+
+https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address
+
+
+git config --list
+
+git config --global user.name "gewely_or_mariam"
+
+git config --global user.email "gewely_or_mariam@gmail.com"
+
+npm install
+
+ng serve
+
+http://localhost:4200/

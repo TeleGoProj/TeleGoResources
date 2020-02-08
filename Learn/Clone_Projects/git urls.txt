@@ -1,0 +1,22 @@
+https://github.com/TeleGoProj/TeleGoResources
+
+https://github.com/TeleGoProj/TeleGoDatabase
+
+https://github.com/TeleGoProj/TeleGoBackEnd
+
+https://github.com/TeleGoProj/TeleGoFrontEnd
+
+https://github.com/TeleGoProj/TeleGoWebDesign
+
+
+
+
+git clone https://github.com/TeleGoProj/TeleGoDatabase
+
+git clone https://github.com/TeleGoProj/TeleGoBackEnd
+
+git clone https://github.com/TeleGoProj/TeleGoFrontEnd
+
+git clone https://github.com/TeleGoProj/TeleGoWebDesign
+
+git clone https://github.com/TeleGoProj/TeleGoResources.git
