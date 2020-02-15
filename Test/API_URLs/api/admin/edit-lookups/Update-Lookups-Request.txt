@@ -1,0 +1,12 @@
+﻿http://localhost:8090/api/admin/edit-lookups
+
+{
+    "updatedCountries": [
+        {
+        	"countryId": "2",
+            "nameEn": "United States Of America",
+            "nameAr": "امريكا",
+            "code": "USA"
+        }
+    ]
+}

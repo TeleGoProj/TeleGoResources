@@ -1,0 +1,11 @@
+﻿http://localhost:8090/api/admin/edit-lookups
+
+{
+    "addedCountries": [
+        {
+            "nameEn": "United States",
+            "nameAr": "امريكا",
+            "code": "USA"
+        }
+    ]
+}

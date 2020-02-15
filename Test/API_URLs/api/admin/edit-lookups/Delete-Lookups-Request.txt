@@ -1,0 +1,9 @@
+﻿http://localhost:8090/api/admin/edit-lookups
+
+{
+    "deletedCountries": [
+        {
+        	"countryId": "1001"
+        }
+    ]
+}
