@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_YQckoGxrEeqQd6FCJyb7Gg" name="Recieve Order">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_mQNR0GxwEeqQd6FCJyb7Gg"/>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Yf-1cGxrEeqQd6FCJyb7Gg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_YT79gGxrEeqQd6FCJyb7Gg" name="Activity1"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_YaAJQGxrEeqQd6FCJyb7Gg" name="Interaction2"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="__xHVsGxvEeqQd6FCJyb7Gg" name="Drop_Point delivary" visibility="public">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YWYhoGx4EeqQd6FCJyb7Gg" name="Apply for Order"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zcFHIGx5EeqQd6FCJyb7Gg" name="Recieve Order"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XbmsoG1CEeqhtoZPGQc6Mg" name="Pack &amp; Shipping Order"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qAsS0HA_Eeqa_cufW6LV2g" name="Recieve &amp; deliver order"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_qcwx0GxwEeqQd6FCJyb7Gg" name="User (Sender)"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oIIVYGxzEeqQd6FCJyb7Gg" memberEnd="_oIloYWxzEeqQd6FCJyb7Gg _oImPcGxzEeqQd6FCJyb7Gg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oIlBUGxzEeqQd6FCJyb7Gg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oIloYGxzEeqQd6FCJyb7Gg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oIloYWxzEeqQd6FCJyb7Gg" name="user" type="_qcwx0GxwEeqQd6FCJyb7Gg" association="_oIIVYGxzEeqQd6FCJyb7Gg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oImPcGxzEeqQd6FCJyb7Gg" name=" user name" type="_YWYhoGx4EeqQd6FCJyb7Gg" association="_oIIVYGxzEeqQd6FCJyb7Gg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_8XUhUHA-Eeqa_cufW6LV2g" name="Shipping Company"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ksM6YHA_Eeqa_cufW6LV2g" memberEnd="_ksPWonA_Eeqa_cufW6LV2g _ksPWo3A_Eeqa_cufW6LV2g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ksPWoHA_Eeqa_cufW6LV2g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ksPWoXA_Eeqa_cufW6LV2g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ksPWonA_Eeqa_cufW6LV2g" name="pack &amp; shipping order" type="_XbmsoG1CEeqhtoZPGQc6Mg" association="_ksM6YHA_Eeqa_cufW6LV2g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ksPWo3A_Eeqa_cufW6LV2g" name="shipping company" type="_8XUhUHA-Eeqa_cufW6LV2g" association="_ksM6YHA_Eeqa_cufW6LV2g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_l4lN8HA_Eeqa_cufW6LV2g" name="drop_point employee"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_41oGwHA_Eeqa_cufW6LV2g" name="Reciever (End point)"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AHt0UHBAEeqa_cufW6LV2g" memberEnd="_AHvCcnBAEeqa_cufW6LV2g _AHvCc3BAEeqa_cufW6LV2g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AHvCcHBAEeqa_cufW6LV2g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AHvCcXBAEeqa_cufW6LV2g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AHvCcnBAEeqa_cufW6LV2g" name="edit features" type="_zcFHIGx5EeqQd6FCJyb7Gg" association="_AHt0UHBAEeqa_cufW6LV2g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AHvCc3BAEeqa_cufW6LV2g" name="reciever (end point)" type="_41oGwHA_Eeqa_cufW6LV2g" association="_AHt0UHBAEeqa_cufW6LV2g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IU0_sHBAEeqa_cufW6LV2g" memberEnd="_IU1mwnBAEeqa_cufW6LV2g _IU2N0HBAEeqa_cufW6LV2g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IU1mwHBAEeqa_cufW6LV2g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IU1mwXBAEeqa_cufW6LV2g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IU1mwnBAEeqa_cufW6LV2g" name="recieve &amp; deliver order" type="_qAsS0HA_Eeqa_cufW6LV2g" association="_IU0_sHBAEeqa_cufW6LV2g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IU2N0HBAEeqa_cufW6LV2g" name="drop_point employee" type="_l4lN8HA_Eeqa_cufW6LV2g" association="_IU0_sHBAEeqa_cufW6LV2g"/>
+  </packagedElement>
+</uml:Model>

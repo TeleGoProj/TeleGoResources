@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_YQckoGxrEeqQd6FCJyb7Gg" name="Login &amp; Registeration" visibility="public">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_mQNR0GxwEeqQd6FCJyb7Gg"/>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Yf-1cGxrEeqQd6FCJyb7Gg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_YT79gGxrEeqQd6FCJyb7Gg" name="Activity1"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_YaAJQGxrEeqQd6FCJyb7Gg" name="Interaction2"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="__xHVsGxvEeqQd6FCJyb7Gg" name="Login &amp; Registeration" visibility="public" URI="">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wwCGsGxwEeqQd6FCJyb7Gg" name="Search By Phone">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_iw7dUHA7Eeqa_cufW6LV2g" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_37ResHA8Eeqa_cufW6LV2g" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YWYhoGx4EeqQd6FCJyb7Gg" name="Search By feature">
+      <extend xmi:type="uml:Extend" xmi:id="_36kUEHA8Eeqa_cufW6LV2g" extendedCase="_wwCGsGxwEeqQd6FCJyb7Gg" extensionLocation="_37ResHA8Eeqa_cufW6LV2g"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_UNOLYG4OEeqlWfStoWls-A" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vipz8Gx4EeqQd6FCJyb7Gg" name="Edit Profile">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_WRw2AG4OEeqlWfStoWls-A" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zcFHIGx5EeqQd6FCJyb7Gg" name="Subscribe">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_W_Xi4G4OEeqlWfStoWls-A" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fIy7cG06EeqhtoZPGQc6Mg" name="Management ">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Ybx2gG4OEeqlWfStoWls-A" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yfPdMHAjEeqa_cufW6LV2g" name="Drop_Point delivary"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_G76BwHA8Eeqa_cufW6LV2g" name="Login/Registeration"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_qcwx0GxwEeqQd6FCJyb7Gg" name="Logged_in User">
+    <generalization xmi:type="uml:Generalization" xmi:id="_gDCAkHAjEeqa_cufW6LV2g" general="_HrUO0HAjEeqa_cufW6LV2g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oIIVYGxzEeqQd6FCJyb7Gg" memberEnd="_oIloYWxzEeqQd6FCJyb7Gg _oImPcGxzEeqQd6FCJyb7Gg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oIlBUGxzEeqQd6FCJyb7Gg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oIloYGxzEeqQd6FCJyb7Gg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oIloYWxzEeqQd6FCJyb7Gg" name="user" type="_qcwx0GxwEeqQd6FCJyb7Gg" association="_oIIVYGxzEeqQd6FCJyb7Gg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oImPcGxzEeqQd6FCJyb7Gg" name=" user name" type="_YWYhoGx4EeqQd6FCJyb7Gg" association="_oIIVYGxzEeqQd6FCJyb7Gg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BNi2cGx7EeqQd6FCJyb7Gg" memberEnd="_BNkroGx7EeqQd6FCJyb7Gg _BNkroWx7EeqQd6FCJyb7Gg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BNkEkGx7EeqQd6FCJyb7Gg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BNkEkWx7EeqQd6FCJyb7Gg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BNkroGx7EeqQd6FCJyb7Gg" name="edit profile" type="_vipz8Gx4EeqQd6FCJyb7Gg" association="_BNi2cGx7EeqQd6FCJyb7Gg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BNkroWx7EeqQd6FCJyb7Gg" name="user" type="_qcwx0GxwEeqQd6FCJyb7Gg" association="_BNi2cGx7EeqQd6FCJyb7Gg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_B8IawGx7EeqQd6FCJyb7Gg" memberEnd="_B8JB0mx7EeqQd6FCJyb7Gg _B8Jo4Gx7EeqQd6FCJyb7Gg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B8JB0Gx7EeqQd6FCJyb7Gg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B8JB0Wx7EeqQd6FCJyb7Gg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_B8JB0mx7EeqQd6FCJyb7Gg" name="subscribe" type="_zcFHIGx5EeqQd6FCJyb7Gg" association="_B8IawGx7EeqQd6FCJyb7Gg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_B8Jo4Gx7EeqQd6FCJyb7Gg" name="user" type="_qcwx0GxwEeqQd6FCJyb7Gg" association="_B8IawGx7EeqQd6FCJyb7Gg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HrUO0HAjEeqa_cufW6LV2g" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_P-NSEHAjEeqa_cufW6LV2g" name="Visitor">
+    <generalization xmi:type="uml:Generalization" xmi:id="_hz79gHAjEeqa_cufW6LV2g" general="_HrUO0HAjEeqa_cufW6LV2g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_R7uusHAjEeqa_cufW6LV2g" name="Admin"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_m9WHUHAjEeqa_cufW6LV2g" memberEnd="_m9WuYnAjEeqa_cufW6LV2g _m9XVcHAjEeqa_cufW6LV2g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m9WuYHAjEeqa_cufW6LV2g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m9WuYXAjEeqa_cufW6LV2g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_m9WuYnAjEeqa_cufW6LV2g" name="management " type="_fIy7cG06EeqhtoZPGQc6Mg" association="_m9WHUHAjEeqa_cufW6LV2g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_m9XVcHAjEeqa_cufW6LV2g" name="admin" type="_R7uusHAjEeqa_cufW6LV2g" association="_m9WHUHAjEeqa_cufW6LV2g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Iguf8HA7Eeqa_cufW6LV2g" memberEnd="_Ihk0gHA7Eeqa_cufW6LV2g _IhlbkHA7Eeqa_cufW6LV2g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ihi_UHA7Eeqa_cufW6LV2g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IhjmYHA7Eeqa_cufW6LV2g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ihk0gHA7Eeqa_cufW6LV2g" name="login" type="_wwCGsGxwEeqQd6FCJyb7Gg" association="_Iguf8HA7Eeqa_cufW6LV2g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IhlbkHA7Eeqa_cufW6LV2g" name="user" type="_HrUO0HAjEeqa_cufW6LV2g" association="_Iguf8HA7Eeqa_cufW6LV2g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kkvH0HA8Eeqa_cufW6LV2g" memberEnd="_klEfAHA8Eeqa_cufW6LV2g _klFGEHA8Eeqa_cufW6LV2g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kk2ckHA8Eeqa_cufW6LV2g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kk3DoHA8Eeqa_cufW6LV2g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_klEfAHA8Eeqa_cufW6LV2g" name="login/registeration" type="_G76BwHA8Eeqa_cufW6LV2g" association="_kkvH0HA8Eeqa_cufW6LV2g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_klFGEHA8Eeqa_cufW6LV2g" name="user" type="_HrUO0HAjEeqa_cufW6LV2g" association="_kkvH0HA8Eeqa_cufW6LV2g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pn2m8HA9Eeqa_cufW6LV2g" memberEnd="_pn3OAnA9Eeqa_cufW6LV2g _pn31EHA9Eeqa_cufW6LV2g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pn3OAHA9Eeqa_cufW6LV2g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pn3OAXA9Eeqa_cufW6LV2g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pn3OAnA9Eeqa_cufW6LV2g" name="drop_point delivary" type="_yfPdMHAjEeqa_cufW6LV2g" association="_pn2m8HA9Eeqa_cufW6LV2g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pn31EHA9Eeqa_cufW6LV2g" name="logged_in user" type="_qcwx0GxwEeqQd6FCJyb7Gg" association="_pn2m8HA9Eeqa_cufW6LV2g"/>
+  </packagedElement>
+</uml:Model>

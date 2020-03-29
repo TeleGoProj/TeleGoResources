@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_YQckoGxrEeqQd6FCJyb7Gg" name="Edit Profile">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_mQNR0GxwEeqQd6FCJyb7Gg"/>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Yf-1cGxrEeqQd6FCJyb7Gg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_YT79gGxrEeqQd6FCJyb7Gg" name="Activity1"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_YaAJQGxrEeqQd6FCJyb7Gg" name="Interaction2"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="__xHVsGxvEeqQd6FCJyb7Gg" name="Profile" visibility="public">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YWYhoGx4EeqQd6FCJyb7Gg" name="Edit Photo"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vipz8Gx4EeqQd6FCJyb7Gg" name="Edit Basic Info"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zcFHIGx5EeqQd6FCJyb7Gg" name="Edit features"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XbmsoG1CEeqhtoZPGQc6Mg" name="About Me"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_qcwx0GxwEeqQd6FCJyb7Gg" name="User"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oIIVYGxzEeqQd6FCJyb7Gg" memberEnd="_oIloYWxzEeqQd6FCJyb7Gg _oImPcGxzEeqQd6FCJyb7Gg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oIlBUGxzEeqQd6FCJyb7Gg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oIloYGxzEeqQd6FCJyb7Gg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oIloYWxzEeqQd6FCJyb7Gg" name="user" type="_qcwx0GxwEeqQd6FCJyb7Gg" association="_oIIVYGxzEeqQd6FCJyb7Gg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oImPcGxzEeqQd6FCJyb7Gg" name=" user name" type="_YWYhoGx4EeqQd6FCJyb7Gg" association="_oIIVYGxzEeqQd6FCJyb7Gg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BNi2cGx7EeqQd6FCJyb7Gg" memberEnd="_BNkroGx7EeqQd6FCJyb7Gg _BNkroWx7EeqQd6FCJyb7Gg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BNkEkGx7EeqQd6FCJyb7Gg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BNkEkWx7EeqQd6FCJyb7Gg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BNkroGx7EeqQd6FCJyb7Gg" name="edit profile" type="_vipz8Gx4EeqQd6FCJyb7Gg" association="_BNi2cGx7EeqQd6FCJyb7Gg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BNkroWx7EeqQd6FCJyb7Gg" name="user" type="_qcwx0GxwEeqQd6FCJyb7Gg" association="_BNi2cGx7EeqQd6FCJyb7Gg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_B8IawGx7EeqQd6FCJyb7Gg" memberEnd="_B8JB0mx7EeqQd6FCJyb7Gg _B8Jo4Gx7EeqQd6FCJyb7Gg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B8JB0Gx7EeqQd6FCJyb7Gg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B8JB0Wx7EeqQd6FCJyb7Gg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_B8JB0mx7EeqQd6FCJyb7Gg" name="subscribe" type="_zcFHIGx5EeqQd6FCJyb7Gg" association="_B8IawGx7EeqQd6FCJyb7Gg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_B8Jo4Gx7EeqQd6FCJyb7Gg" name="user" type="_qcwx0GxwEeqQd6FCJyb7Gg" association="_B8IawGx7EeqQd6FCJyb7Gg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_h89ykG1CEeqhtoZPGQc6Mg" memberEnd="_h8_nwG1CEeqhtoZPGQc6Mg _h8_nwW1CEeqhtoZPGQc6Mg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_h8_AsG1CEeqhtoZPGQc6Mg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h8_AsW1CEeqhtoZPGQc6Mg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_h8_nwG1CEeqhtoZPGQc6Mg" name="about me" type="_XbmsoG1CEeqhtoZPGQc6Mg" association="_h89ykG1CEeqhtoZPGQc6Mg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_h8_nwW1CEeqhtoZPGQc6Mg" name="user" type="_qcwx0GxwEeqQd6FCJyb7Gg" association="_h89ykG1CEeqhtoZPGQc6Mg"/>
+  </packagedElement>
+</uml:Model>
