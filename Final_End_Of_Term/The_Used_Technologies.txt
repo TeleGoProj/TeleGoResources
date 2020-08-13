@@ -1,0 +1,13 @@
+Abstractedly, below is a summary of the used technologies
+
+1- Backend:
+	Java (Spring boot, Spring Web, Spring Data, Maven).
+
+2- Database:
+	Oracle
+
+3- Frontend:
+	Angular, Bootstrap, HTML, CSS
+
+4- Version Control:
+	Git

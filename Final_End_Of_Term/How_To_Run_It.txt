@@ -1,0 +1,26 @@
+1- Database:
+	- Install Oracle on localhost
+	- Run the DCL file found in path "Database"
+	- Run the Database Export found in path "Database"
+
+2- Java
+	- Install Java 8
+	- Install Maven
+	- Install Eclipse
+	- Import project as a Maven Project
+	- Run the main class com.telego.TelegoApplication
+
+3- Angular
+	- Install Node.js
+	- Install Angular 8
+	- Install Microsoft Visual Studio Code
+	- Open Project in MS Code
+	- Run using cli the follwoing
+		* npm install -g @angular/cli
+		* npm install
+		* npm build
+	- Run project using the below command:
+		* ng serve
+4- Web browser
+	- Open this URL in a web browser http://localhost:4200/
+
