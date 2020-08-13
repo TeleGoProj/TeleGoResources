@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style">
+  <notation:Diagram xmi:id="_YZdWsGxrEeqQd6FCJyb7Gg" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_YZdWsWxrEeqQd6FCJyb7Gg" type="Activity_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_YZdWsmxrEeqQd6FCJyb7Gg" type="Activity_NameLabel"/>
+      <children xsi:type="notation:DecorationNode" xmi:id="_YZdWs2xrEeqQd6FCJyb7Gg" type="Activity_KeywordLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_YZdWtGxrEeqQd6FCJyb7Gg" type="Activity_ParameterCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_YZdWtWxrEeqQd6FCJyb7Gg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_YZdWtmxrEeqQd6FCJyb7Gg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YZdWt2xrEeqQd6FCJyb7Gg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_YZdWuGxrEeqQd6FCJyb7Gg" type="Activity_PreconditionCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_YZdWuWxrEeqQd6FCJyb7Gg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_YZdWumxrEeqQd6FCJyb7Gg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YZdWu2xrEeqQd6FCJyb7Gg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_YZdWvGxrEeqQd6FCJyb7Gg" type="Activity_PostconditionCompartment">
+        <styles xsi:type="notation:SortingStyle" xmi:id="_YZdWvWxrEeqQd6FCJyb7Gg"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_YZdWvmxrEeqQd6FCJyb7Gg"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YZdWv2xrEeqQd6FCJyb7Gg"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_YZdWwGxrEeqQd6FCJyb7Gg" type="Activity_ActivityNodeCompartment">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YZdWwWxrEeqQd6FCJyb7Gg"/>
+      </children>
+      <element href="Drop_Point%20Delivary.uml#_YT79gGxrEeqQd6FCJyb7Gg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YZdWwmxrEeqQd6FCJyb7Gg"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_YZdWw2xrEeqQd6FCJyb7Gg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_YZdWxGxrEeqQd6FCJyb7Gg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_YZdWxWxrEeqQd6FCJyb7Gg" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
+      <owner href="Drop_Point%20Delivary.uml#_YQckoGxrEeqQd6FCJyb7Gg"/>
+    </styles>
+    <element href="Drop_Point%20Delivary.uml#_YT79gGxrEeqQd6FCJyb7Gg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_YbLN8GxrEeqQd6FCJyb7Gg" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_YbLN8WxrEeqQd6FCJyb7Gg" type="Interaction_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_YbLN8mxrEeqQd6FCJyb7Gg" type="Interaction_NameLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_YbLN82xrEeqQd6FCJyb7Gg" type="Interaction_SubfragmentCompartment">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YbLN9GxrEeqQd6FCJyb7Gg"/>
+      </children>
+      <element href="Drop_Point%20Delivary.uml#_YaAJQGxrEeqQd6FCJyb7Gg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YbLN9WxrEeqQd6FCJyb7Gg"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_YbLN9mxrEeqQd6FCJyb7Gg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_YbLN92xrEeqQd6FCJyb7Gg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_YbLN-GxrEeqQd6FCJyb7Gg" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+      <owner href="Drop_Point%20Delivary.uml#_YQckoGxrEeqQd6FCJyb7Gg"/>
+    </styles>
+    <element href="Drop_Point%20Delivary.uml#_YaAJQGxrEeqQd6FCJyb7Gg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_YcEl0GxrEeqQd6FCJyb7Gg" type="UseCase" name="Use Case Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="__8WVUGxvEeqQd6FCJyb7Gg" type="Package_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_AKhUMGxwEeqQd6FCJyb7Gg" type="Package_NameLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_AKh7QGxwEeqQd6FCJyb7Gg" type="Package_PackagedElementCompartment">
+        <children xsi:type="notation:Shape" xmi:id="_YX16MGx4EeqQd6FCJyb7Gg" type="UseCase_Shape_CN">
+          <children xsi:type="notation:DecorationNode" xmi:id="_YX8n4Gx4EeqQd6FCJyb7Gg" type="UseCase_NameLabel_CN"/>
+          <children xsi:type="notation:DecorationNode" xmi:id="_YX9O8Gx4EeqQd6FCJyb7Gg" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_YX9O8Wx4EeqQd6FCJyb7Gg" y="15"/>
+          </children>
+          <children xsi:type="notation:BasicCompartment" xmi:id="_YX9O8mx4EeqQd6FCJyb7Gg" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xsi:type="notation:SortingStyle" xmi:id="_YX9O82x4EeqQd6FCJyb7Gg"/>
+            <styles xsi:type="notation:FilteringStyle" xmi:id="_YX9O9Gx4EeqQd6FCJyb7Gg"/>
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YX9O9Wx4EeqQd6FCJyb7Gg"/>
+          </children>
+          <element href="Drop_Point%20Delivary.uml#_YWYhoGx4EeqQd6FCJyb7Gg"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_YX16MWx4EeqQd6FCJyb7Gg" x="34" y="112"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_zcsLIGx5EeqQd6FCJyb7Gg" type="UseCase_Shape_CN">
+          <children xsi:type="notation:DecorationNode" xmi:id="_zctZQGx5EeqQd6FCJyb7Gg" type="UseCase_NameLabel_CN"/>
+          <children xsi:type="notation:DecorationNode" xmi:id="_zctZQWx5EeqQd6FCJyb7Gg" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_zctZQmx5EeqQd6FCJyb7Gg" y="15"/>
+          </children>
+          <children xsi:type="notation:BasicCompartment" xmi:id="_zctZQ2x5EeqQd6FCJyb7Gg" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xsi:type="notation:SortingStyle" xmi:id="_zctZRGx5EeqQd6FCJyb7Gg"/>
+            <styles xsi:type="notation:FilteringStyle" xmi:id="_zctZRWx5EeqQd6FCJyb7Gg"/>
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_zctZRmx5EeqQd6FCJyb7Gg"/>
+          </children>
+          <element href="Drop_Point%20Delivary.uml#_zcFHIGx5EeqQd6FCJyb7Gg"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_zcsLIWx5EeqQd6FCJyb7Gg" x="214" y="292"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_Xb95AG1CEeqhtoZPGQc6Mg" type="UseCase_Shape_CN">
+          <children xsi:type="notation:DecorationNode" xmi:id="_XcYvwG1CEeqhtoZPGQc6Mg" type="UseCase_NameLabel_CN"/>
+          <children xsi:type="notation:DecorationNode" xmi:id="_XcZW0G1CEeqhtoZPGQc6Mg" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_XcZW0W1CEeqhtoZPGQc6Mg" y="15"/>
+          </children>
+          <children xsi:type="notation:BasicCompartment" xmi:id="_XcZ94G1CEeqhtoZPGQc6Mg" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xsi:type="notation:SortingStyle" xmi:id="_XcZ94W1CEeqhtoZPGQc6Mg"/>
+            <styles xsi:type="notation:FilteringStyle" xmi:id="_XcZ94m1CEeqhtoZPGQc6Mg"/>
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_XcZ9421CEeqhtoZPGQc6Mg"/>
+          </children>
+          <element href="Drop_Point%20Delivary.uml#_XbmsoG1CEeqhtoZPGQc6Mg"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Xb95AW1CEeqhtoZPGQc6Mg" x="34" y="292"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_qBJl0HA_Eeqa_cufW6LV2g" type="UseCase_Shape_CN">
+          <children xsi:type="notation:DecorationNode" xmi:id="_qBJl0nA_Eeqa_cufW6LV2g" type="UseCase_NameLabel_CN"/>
+          <children xsi:type="notation:DecorationNode" xmi:id="_qBKM4HA_Eeqa_cufW6LV2g" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xsi:type="notation:Location" xmi:id="_qBKM4XA_Eeqa_cufW6LV2g" y="15"/>
+          </children>
+          <children xsi:type="notation:BasicCompartment" xmi:id="_qBKM4nA_Eeqa_cufW6LV2g" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xsi:type="notation:SortingStyle" xmi:id="_qBKM43A_Eeqa_cufW6LV2g"/>
+            <styles xsi:type="notation:FilteringStyle" xmi:id="_qBKM5HA_Eeqa_cufW6LV2g"/>
+            <layoutConstraint xsi:type="notation:Bounds" xmi:id="_qBKM5XA_Eeqa_cufW6LV2g"/>
+          </children>
+          <element href="Drop_Point%20Delivary.uml#_qAsS0HA_Eeqa_cufW6LV2g"/>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_qBJl0XA_Eeqa_cufW6LV2g" x="194" y="112"/>
+        </children>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_AKh7QWxwEeqQd6FCJyb7Gg"/>
+      </children>
+      <element href="Drop_Point%20Delivary.uml#__xHVsGxvEeqQd6FCJyb7Gg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="__9CR0GxvEeqQd6FCJyb7Gg" x="180" y="-20" width="381" height="441"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_qc4toGxwEeqQd6FCJyb7Gg" type="Actor_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_qc6i0GxwEeqQd6FCJyb7Gg" type="Actor_NameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_qc6i0WxwEeqQd6FCJyb7Gg" y="15"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_qc7w8GxwEeqQd6FCJyb7Gg" type="Actor_StereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_qc7w8WxwEeqQd6FCJyb7Gg" x="20" y="100"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_qc7w8mxwEeqQd6FCJyb7Gg" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_qc8YAGxwEeqQd6FCJyb7Gg" x="20" y="80"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_qc8YAWxwEeqQd6FCJyb7Gg" type="Actor_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_qc8_EGxwEeqQd6FCJyb7Gg" y="15"/>
+      </children>
+      <element href="Drop_Point%20Delivary.uml#_qcwx0GxwEeqQd6FCJyb7Gg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_qc4toWxwEeqQd6FCJyb7Gg" x="100" y="80" width="41" height="81"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_8XW9kHA-Eeqa_cufW6LV2g" type="Actor_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_8XW9knA-Eeqa_cufW6LV2g" type="Actor_NameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_8XW9k3A-Eeqa_cufW6LV2g" y="15"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_8XW9lHA-Eeqa_cufW6LV2g" type="Actor_StereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_8XW9lXA-Eeqa_cufW6LV2g" x="20" y="100"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_8XXkoHA-Eeqa_cufW6LV2g" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_8XXkoXA-Eeqa_cufW6LV2g" x="20" y="80"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_8XXkonA-Eeqa_cufW6LV2g" type="Actor_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_8XXko3A-Eeqa_cufW6LV2g" y="15"/>
+      </children>
+      <element href="Drop_Point%20Delivary.uml#_8XUhUHA-Eeqa_cufW6LV2g"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_8XW9kXA-Eeqa_cufW6LV2g" x="80" y="280" width="41" height="70"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_l4nqMHA_Eeqa_cufW6LV2g" type="Actor_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_l4oRQHA_Eeqa_cufW6LV2g" type="Actor_NameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_l4oRQXA_Eeqa_cufW6LV2g" y="15"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_l4oRQnA_Eeqa_cufW6LV2g" type="Actor_StereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_l4oRQ3A_Eeqa_cufW6LV2g" x="20" y="100"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_l4oRRHA_Eeqa_cufW6LV2g" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_l4o4UHA_Eeqa_cufW6LV2g" x="20" y="80"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_l4o4UXA_Eeqa_cufW6LV2g" type="Actor_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_l4o4UnA_Eeqa_cufW6LV2g" y="15"/>
+      </children>
+      <element href="Drop_Point%20Delivary.uml#_l4lN8HA_Eeqa_cufW6LV2g"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_l4nqMXA_Eeqa_cufW6LV2g" x="640" y="100"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_41qjAHA_Eeqa_cufW6LV2g" type="Actor_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_41qjAnA_Eeqa_cufW6LV2g" type="Actor_NameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_41qjA3A_Eeqa_cufW6LV2g" y="15"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_41qjBHA_Eeqa_cufW6LV2g" type="Actor_StereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_41qjBXA_Eeqa_cufW6LV2g" x="20" y="100"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_41rKEHA_Eeqa_cufW6LV2g" type="Actor_QualifiedNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_41rKEXA_Eeqa_cufW6LV2g" x="20" y="80"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_41rKEnA_Eeqa_cufW6LV2g" type="Actor_FloatingNameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_41rKE3A_Eeqa_cufW6LV2g" y="15"/>
+      </children>
+      <element href="Drop_Point%20Delivary.uml#_41oGwHA_Eeqa_cufW6LV2g"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_41qjAXA_Eeqa_cufW6LV2g" x="660" y="300"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_YcEl0WxrEeqQd6FCJyb7Gg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_YcEl0mxrEeqQd6FCJyb7Gg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_YcEl02xrEeqQd6FCJyb7Gg" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner href="Drop_Point%20Delivary.uml#_YQckoGxrEeqQd6FCJyb7Gg"/>
+    </styles>
+    <element href="Drop_Point%20Delivary.uml#_YQckoGxrEeqQd6FCJyb7Gg"/>
+    <edges xsi:type="notation:Connector" xmi:id="_oIoEoGxzEeqQd6FCJyb7Gg" type="Association_Edge" source="_YX16MGx4EeqQd6FCJyb7Gg" target="_qc4toGxwEeqQd6FCJyb7Gg">
+      <children xsi:type="notation:DecorationNode" xmi:id="_oIorsGxzEeqQd6FCJyb7Gg" type="Association_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_9jTrQGx4EeqQd6FCJyb7Gg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_oIorsWxzEeqQd6FCJyb7Gg" x="1" y="38"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_oIorsmxzEeqQd6FCJyb7Gg" type="Association_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_9jmmMGx4EeqQd6FCJyb7Gg" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_oIors2xzEeqQd6FCJyb7Gg" x="1" y="-20"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_oIoEoWxzEeqQd6FCJyb7Gg"/>
+      <element href="Drop_Point%20Delivary.uml#_oIIVYGxzEeqQd6FCJyb7Gg"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_oIoEomxzEeqQd6FCJyb7Gg" points="[264, 100, -643984, -643984]$[141, 160, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_oM5goGxzEeqQd6FCJyb7Gg" id="(0.0,0.6666666666666666)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_oM5goWxzEeqQd6FCJyb7Gg" id="(1.0,0.49382716049382713)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_ksQkwHA_Eeqa_cufW6LV2g" type="Association_Edge" source="_8XW9kHA-Eeqa_cufW6LV2g" target="_Xb95AG1CEeqhtoZPGQc6Mg">
+      <children xsi:type="notation:DecorationNode" xmi:id="_ksRL0HA_Eeqa_cufW6LV2g" type="Association_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_0InlEHA_Eeqa_cufW6LV2g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_ksRL0XA_Eeqa_cufW6LV2g" x="1" y="38"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_ksRL0nA_Eeqa_cufW6LV2g" type="Association_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_0I-xcHA_Eeqa_cufW6LV2g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_ksRL03A_Eeqa_cufW6LV2g" x="1" y="-18"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_ksQkwXA_Eeqa_cufW6LV2g"/>
+      <element href="Drop_Point%20Delivary.uml#_ksM6YHA_Eeqa_cufW6LV2g"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_ksQkwnA_Eeqa_cufW6LV2g" points="[121, 320, -643984, -643984]$[244, 380, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_ktFEIHA_Eeqa_cufW6LV2g" id="(1.0,0.5714285714285714)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_ktFEIXA_Eeqa_cufW6LV2g" id="(0.026143790849673203,0.3333333333333333)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_AHwQkHBAEeqa_cufW6LV2g" type="Association_Edge" source="_41qjAHA_Eeqa_cufW6LV2g" target="_zcsLIGx5EeqQd6FCJyb7Gg">
+      <children xsi:type="notation:DecorationNode" xmi:id="_AHw3oHBAEeqa_cufW6LV2g" type="Association_NameLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_AHw3oXBAEeqa_cufW6LV2g" y="40"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_AHw3onBAEeqa_cufW6LV2g" type="Association_StereotypeLabel">
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_AHw3o3BAEeqa_cufW6LV2g" y="-20"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_AHwQkXBAEeqa_cufW6LV2g"/>
+      <element href="Drop_Point%20Delivary.uml#_AHt0UHBAEeqa_cufW6LV2g"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_AHwQknBAEeqa_cufW6LV2g" points="[660, 340, -643984, -643984]$[540, 330, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_AI-YkHBAEeqa_cufW6LV2g" id="(0.0,0.8)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_AJCC8HBAEeqa_cufW6LV2g" id="(1.0,0.5)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_IU3b8HBAEeqa_cufW6LV2g" type="Association_Edge" source="_l4nqMHA_Eeqa_cufW6LV2g" target="_qBJl0HA_Eeqa_cufW6LV2g">
+      <children xsi:type="notation:DecorationNode" xmi:id="_IU3b83BAEeqa_cufW6LV2g" type="Association_NameLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_JDkVAHBAEeqa_cufW6LV2g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_IU4DAHBAEeqa_cufW6LV2g" y="40"/>
+      </children>
+      <children xsi:type="notation:DecorationNode" xmi:id="_IU4DAXBAEeqa_cufW6LV2g" type="Association_StereotypeLabel">
+        <styles xsi:type="notation:BooleanValueStyle" xmi:id="_JD5sMHBAEeqa_cufW6LV2g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_IU4DAnBAEeqa_cufW6LV2g" y="-20"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_IU3b8XBAEeqa_cufW6LV2g"/>
+      <element href="Drop_Point%20Delivary.uml#_IU0_sHBAEeqa_cufW6LV2g"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_IU3b8nBAEeqa_cufW6LV2g" points="[640, 140, -643984, -643984]$[529, 140, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_IV59wHBAEeqa_cufW6LV2g" id="(0.0,0.8)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_IV6k0HBAEeqa_cufW6LV2g" id="(1.0,0.3333333333333333)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_YcmxUGxrEeqQd6FCJyb7Gg" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_mQipAGxwEeqQd6FCJyb7Gg" type="Comment_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_mQj3IGxwEeqQd6FCJyb7Gg" type="Comment_BodyLabel"/>
+      <element href="Drop_Point%20Delivary.uml#_mQNR0GxwEeqQd6FCJyb7Gg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_mQipAWxwEeqQd6FCJyb7Gg" x="260" y="40"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_YcmxUWxrEeqQd6FCJyb7Gg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_YcmxUmxrEeqQd6FCJyb7Gg"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_YcmxU2xrEeqQd6FCJyb7Gg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner href="Drop_Point%20Delivary.uml#_YQckoGxrEeqQd6FCJyb7Gg"/>
+    </styles>
+    <element href="Drop_Point%20Delivary.uml#_YQckoGxrEeqQd6FCJyb7Gg"/>
+  </notation:Diagram>
+</xmi:XMI>
